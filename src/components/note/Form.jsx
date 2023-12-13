@@ -60,7 +60,7 @@ const Form = () => {
 
     return (
         <ClickAwayListener onClickAway={handleClickAway}>
-            <Container ref={containerRef}>
+            <Container ref={containerRef} style={{width:'90%'}}>
                 {   showTextField && 
                     <TextField 
                         placeholder="Title"
